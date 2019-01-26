@@ -1,0 +1,25 @@
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.nav-link:hover{
+    color: black;
+    background-color: #42f47d;
+}
+#logo:hover {
+  opacity: .5;
+  filter: alpha(opacity=100);
+}
+#slides img{
+    height: 690px;
+    width: 100%;
+}
+#live{
+    background-color: #ffffff;
+}
+@media screen and (max-width: 786px){
+    .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+    }
+}
